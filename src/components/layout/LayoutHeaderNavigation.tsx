@@ -3,9 +3,9 @@ import React from "react";
 export const LayoutHeaderNavigation = () => {
   return (
     <header>
-      <section className="h-20 flex justify-center items-center">
-        <nav className="flex space-x-4">
-          <p>로고</p>
+      <section className="h-20 flex  items-center">
+        <nav className="w-full flex justify-between px-5">
+          <a className="w-20">DHYUN POLIO</a>
           <div className="flex">
             <div>어디로 떠날까요?</div>
             <div>언제 떠날까요?</div>

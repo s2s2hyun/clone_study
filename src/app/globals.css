@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -119,4 +121,5 @@ video {
 body {
   color: #181818;
   background: #fff;
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
 }

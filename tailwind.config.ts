@@ -16,6 +16,7 @@ const config: Config = {
       },
       backgroundImage: {
         "middle-bg": "url('/assets/dividerImg/abc8ac48.jpg')",
+        "middleTwo-bg": "url('/assets/dividerImg/85b7a34.png')",
       },
     },
   },

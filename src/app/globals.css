@@ -1,8 +1,26 @@
+@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Lato:wght@700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+/* AppleSDGothicNeoR font */
+@font-face {
+  font-family: "AppleSDGothicNeoR";
+  src: url("/assets/font/AppleSDGothicNeoR.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* DroidSans font */
+@font-face {
+  font-family: "DroidSans";
+  src: url("/assets/font/DroidSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;

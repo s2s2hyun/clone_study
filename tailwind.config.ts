@@ -8,7 +8,13 @@ const config: Config = {
   ],
   important: "body",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "lato-bold": ["Lato-Bold"],
+        abel: ["Abel", "SpoqaHanSans", "sans-serif"],
+        sans: ["Droid Sans", "AppleSDGothicNeo", "sans-serif"],
+      },
+    },
   },
   plugins: [],
   corePlugins: {

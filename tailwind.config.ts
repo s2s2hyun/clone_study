@@ -14,6 +14,9 @@ const config: Config = {
         abel: ["Abel", "SpoqaHanSans", "sans-serif"],
         sans: ["Droid Sans", "AppleSDGothicNeo", "sans-serif"],
       },
+      backgroundImage: {
+        "middle-bg": "url('/assets/dividerImg/abc8ac48.jpg')",
+      },
     },
   },
   plugins: [],

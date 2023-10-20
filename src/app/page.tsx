@@ -2,10 +2,11 @@ import Image from "next/image";
 import FirstImg from "../../public/assets/houseimg/147586a9404de611673368d935d8f643aa719625.webp";
 import HouseTextImg from "../../public/assets/textImg/d7eb664f8cd1a5e2ad2240f4e80e6c89a9a23ac9.jpg";
 import MainListSection from "@/components/main/MainListSection";
+import MainDividerLine from "@/components/main/MainDividerLine";
 export default function Home() {
   return (
-    <main className="flex flex-col px-12 ">
-      <section className="w-full">
+    <main className="">
+      <section className="w-full flex flex-col px-12">
         <div className="relative">
           <Image src={FirstImg} alt="${house-img}" className="w-full" />
           <div className="absolute w-[320px] h-[320px]  bg-white top-1/2  right-[70px] -mt-[150px] py-[30px] items-center justify-center text-center">
@@ -30,6 +31,7 @@ export default function Home() {
         </div>
         <MainListSection />
       </section>
+      <MainDividerLine />
     </main>
   );
 }

@@ -20,7 +20,7 @@ export default function RootLayout({
             <LayoutHeader />
             <LayoutHeaderNavigation />
             <main>{children}</main>
-            <LayoutFooter />
+            {/* <LayoutFooter /> */}
           </StyledComponentsRegistry>
         </ReduxProviders>
       </body>

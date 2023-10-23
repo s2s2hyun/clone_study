@@ -3,6 +3,11 @@ import FirstImg from "../../public/assets/houseimg/147586a9404de611673368d935d8f
 import HouseTextImg from "../../public/assets/textImg/d7eb664f8cd1a5e2ad2240f4e80e6c89a9a23ac9.jpg";
 import MainListSection from "@/components/main/MainListSection";
 import MainDividerLine from "@/components/main/MainDividerLine";
+import MainEventSection from "@/components/main/MainEventSection";
+import MainMagazineSecsction from "@/components/main/MainMagazineSecsction";
+import MainTravel from "@/components/main/MainTravel";
+import MarkePolio from "@/components/main/MarkePolio";
+import MainExprience from "@/components/main/MainExprience";
 export default function Home() {
   return (
     <main className="">
@@ -32,6 +37,11 @@ export default function Home() {
         <MainListSection />
       </section>
       <MainDividerLine />
+      <MainEventSection />
+      <MainMagazineSecsction />
+      <MainTravel />
+      <MarkePolio />
+      <MainExprience />
     </main>
   );
 }

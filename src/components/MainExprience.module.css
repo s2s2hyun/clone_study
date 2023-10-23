@@ -1,0 +1,8 @@
+.contentDivider ::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  width: 44px;
+  height: 3px;
+  background: black;
+}

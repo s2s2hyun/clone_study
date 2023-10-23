@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+<b>tailwind clone 웹반응형은 아직 못하고있음 10/23 </b>
+
 ## Getting Started
 
 First, run the development server:

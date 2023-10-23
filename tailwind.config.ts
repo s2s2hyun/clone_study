@@ -9,6 +9,15 @@ const config: Config = {
   important: "body",
   theme: {
     extend: {
+      screens: {
+        xs: { min: "340px", max: "389px" },
+        sm: { min: "390px", max: "768px" },
+        ms: { min: "769px", max: "819px" },
+        md: { min: "820px", max: "1023px" },
+        lg: { min: "1024px", max: "1536px" },
+        xl: { min: "1537px", max: "1920px" },
+        "2xl": { min: "1921px" },
+      },
       spacing: {
         "1/2": "50%",
         "49": "49%",
